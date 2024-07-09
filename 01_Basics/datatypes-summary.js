@@ -65,9 +65,41 @@
 
 // Functions
 
-const add = function (a, b) {
-    return a + b;
-}
-console.log(add(1, 2));    // 3
+// const add = function (a, b) {
+//     return a + b;
+// }
+// console.log(add(1, 2));    // 3
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive) and Heap (Non-Primitive) Memory Allocation
+
+/*
+Primitive data types are stored in the Stack memory, while non-primitive data types are stored in the Heap memory.
+ */
+
+
+// Primitive Example: String
+
+// let myYoutubename = "hitechhimanshu";
+// let anothername = myYoutubename;
+// anothername = "codeBharti";
+// console.log(myYoutubename); // hitechhimanshu
+// console.log(anothername); // codeBharti
+
+
+// Non-Primitive Example: Object
+
+// let userOne = {
+//     email: "user@google.com",
+//     upi: "user@ybl"
+// };
+// let userTwo = userOne;
+// userTwo.email = "himanshu@google.com";
+// console.log(userOne.email); // himanshu@google.com
+// console.log(userTwo.email); // himanshu@google.com
 
 
