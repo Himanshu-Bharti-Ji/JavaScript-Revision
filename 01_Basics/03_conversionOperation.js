@@ -95,3 +95,50 @@
 // let valueInString = String(someNumber)
 // console.log(typeof (valueInString));    // string
 // console.log(valueInString);    // 24
+
+
+
+// ************************************** Operations *********************************************
+
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue);    // -3
+
+// console.log(2 + 2);     // 4
+// console.log(2 - 2);     // 0
+// console.log(2 * 2);     // 4
+// console.log(2 * 3);     // 6
+// console.log(2 / 2);     // 1
+// console.log(2 % 2);     // 0
+
+
+// let str1 = "hello"
+// let str2 = " himanshu"
+
+// let str3 = str1 + str2
+// console.log(str3);    // hello himanshu
+
+
+// console.log("1" + 2);     // 12
+// console.log(1 + "2");     // 12
+// console.log("1" + 2 + 2);     // 122
+// console.log(1 + 2 + "2");     // 32
+
+
+// console.log(+true);     // 1
+// console.log(+false);     // 0
+
+// console.log(+"");     // 0
+
+
+// let gameCounter = 100
+// console.log(gameCounter);   // 100
+
+// console.log(++gameCounter);   // 101
+// console.log(gameCounter++);   // 101
+// console.log(gameCounter);   // 102
+
+// console.log(--gameCounter);   // 101
+// console.log(gameCounter--);   // 101
+// console.log(gameCounter);   // 100
